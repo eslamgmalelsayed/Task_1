@@ -22,7 +22,6 @@ export class AppComponent {
   }
   public displayDetails(): void {
     this.showPara = !this.showPara
-    // this.count++
     this.clicksArr.push(++this.count + 'click')
   }
 }
